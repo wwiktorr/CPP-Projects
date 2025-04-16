@@ -1,0 +1,1 @@
+(fib(n) > 0) ? printf("fib(%d) = %lld", n, fib(n)) : printf("Musisz wpisac liczbe dodatnia.");
