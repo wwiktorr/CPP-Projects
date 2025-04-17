@@ -5,7 +5,7 @@ int main()
 {
     unsigned int r, k, a;
     int s = 0;
-    bool i;
+    bool i = false;
     cin >> r >> k >> a;
     while (r >= s)
     {

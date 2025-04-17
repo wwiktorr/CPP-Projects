@@ -1,5 +1,6 @@
 #include <iostream>
 
+const int N = 5000001;
 using namespace std;
 int main()
 {
@@ -7,7 +8,7 @@ int main()
     std::cin.tie(NULL);
     unsigned int n;
     cin >> n;
-    int a[n], p1, k1, w1, p2, k2, w2, j, l = 0;
+    int a[N], p1, k1, w1, p2, k2, w2, j, l = 0;
     p1 = k1 = w1 = p2 = k2 = w2 = 0;
     for (int i = 0; i < n; i++)
     {
